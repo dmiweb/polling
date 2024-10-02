@@ -5,6 +5,6 @@ const converterTimestamp = (timestamp) => {
   const currentDate = time.slice(0, 5) + " " + date;
 
   return currentDate;
-}
+};
 
 export default converterTimestamp;

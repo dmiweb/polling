@@ -1,7 +1,9 @@
 const handlerLongText = (text) => {
-  if(timestamp.length > 15) {
-    return timestamp.slice(0, 15) + "...";
-   }
-}
+  if (text.length > 15) {
+    return text.slice(0, 15) + "...";
+  }
+
+  return text;
+};
 
 export default handlerLongText;
